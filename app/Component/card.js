@@ -2,8 +2,8 @@ import Link from 'next/link';
 
 const ProjectCard = ({ project }) => {
   return (
-    <Link href={`${project.link}`} key={project._id}>
-      <div className="relative  card md:overflow-hidden bg-white flex flex-col mt-6 text-gray-700 shadow-md bg-clip-border rounded-xl w-80 sm:w-full md:w-96 cursor-pointer">
+    <Link href={project.link} key={project._id}>
+      <div className="relative scrolleffects3 card md:overflow-hidden bg-white flex flex-col mt-6 text-gray-700 shadow-md bg-clip-border rounded-xl w-80 sm:w-full md:w-96 cursor-pointer">
         <figure className="relative h-56 mx-4 mt-6 overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40">
           <img
             src={project.imageUrl}
