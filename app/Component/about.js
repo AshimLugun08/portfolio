@@ -44,8 +44,8 @@ export const About = () => {
             />
           </div>
         </div>
-        <div className='w-full md:w-1/2 text-center mx-0 md:mx-16 px-4 py-2 border rounded-xl border-gray-300 shadow-md my-6 md:my-0 text-gray-800'>
-          "Hello, I'm Ashim Lugun, a passionate full-stack web developer on the verge of graduating in Computer Science and Engineering. With a strong foundation in Next.js, React, MongoDB, and Node.js, I thrive on creating robust and innovative web solutions. My journey through engineering has fueled my fascination with the evolving landscape of Web3, where I'm eager to explore and contribute. Let's build the future of the web together!"
+        <div className='w-full h-full md:w-1/2 text-center mx-0 md:mx-16 px-4 py-2 border rounded-xl border-gray-300 shadow-md my-6 md:my-0 text-gray-800'>
+          "Hello, I'm Ashim Lugun, a passionate full-stack web developer on the verge of graduating in Computer Science and Engineering from <span className="font-extrabold">Chaibasa Engineering College</span>. With a strong foundation in Next.js, React, MongoDB, and Node.js, I thrive on creating robust and innovative web solutions. My journey through engineering has fueled my fascination with the evolving landscape of Web3, where I'm eager to explore and contribute. Let's build the future of the web together!"
         </div>
       </div>
     </div>

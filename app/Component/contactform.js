@@ -1,6 +1,7 @@
 "use client"
 import { useState } from 'react';
 import emailjs from "@emailjs/browser";
+import { toast } from 'react-toastify';
 
 const ContactForm = () => {
     const [name, setName] = useState("");
@@ -32,6 +33,16 @@ const ContactForm = () => {
         emailjs.send(serviceId, templateId, templateParams, publicKey)
             .then((response) => {
                 console.log("Email sent successfully", response);
+                toast("message send",{
+                    position: "top-right",
+                    autoClose:1000,
+                    hideProgressBar: false,
+                    closeOnClick:true,
+                    pauseOnHover:true,
+                    draggable:true,
+                    progress:undefined,
+                    theme:"light",
+                })
                 setStatus("Message sent successfully!");
                 setName("");
                 setEmail("");
@@ -86,7 +97,7 @@ const ContactForm = () => {
             <button type="submit" className="w-full bg-emerald-500 text-white py-2 px-4 rounded-md hover:bg-gray-600">
                 Send Message
             </button>
-            {status && <p className="mt-4 text-center text-gray-700">{status}</p>}
+           
         </form>
     );
 };
