@@ -73,7 +73,7 @@ const MyComponent = () => {
           </button>
         </div>
         <div className="flex-1 flex items-center justify-center relative md:mt-16 ">
-          <div id="canv" className="absolute w-full h-full sm:h-80 md:h-150 ">
+          <div id="canv" className="absolute w-full h-full md:mt-16 sm:h-80 md:h-150 ">
           <Canvas className="w-full h-full relative md:mt-10">
   <Suspense fallback={null}>
     <OrbitControls enableZoom={false} />

@@ -1,9 +1,11 @@
-import "./globals.css"
-const Loading =()=>{
-    return (<div className="flex items-center justify-center h-screen">
-            <div className="lds-dual-ring"></div>
-        </div>
+import React from 'react';
 
-    )
-}
-export default Loading
+const Loading = () => {
+  return (
+    <div className="flex justify-center items-center h-screen">
+      <img src="/bean-eater.svg" alt="Loading" width={200} height={200} />
+    </div>
+  );
+};
+
+export default Loading;
