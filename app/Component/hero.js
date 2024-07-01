@@ -72,9 +72,9 @@ const MyComponent = () => {
             Download resume
           </button>
         </div>
-        <div className="flex-1 flex items-center justify-center relative md:mt-14 md:mt-0">
+        <div className="flex-1 flex items-center justify-center relative md:mt-16 ">
           <div id="canv" className="absolute w-full h-full sm:h-80 md:h-150 ">
-          <Canvas className="w-full h-full relative">
+          <Canvas className="w-full h-full relative md:mt-10">
   <Suspense fallback={null}>
     <OrbitControls enableZoom={false} />
     <ambientLight intensity={1} />
