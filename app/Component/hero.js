@@ -49,7 +49,7 @@ const MyComponent = () => {
 
   return (
     <>
-      <div className="min-h-screen flex flex-col md:flex-row">
+      <div className=":md:min-h-screen md:mb-40 flex flex-col md:flex-row">
         <div className="flex-1 mt-6 md:mt-40 bg-transparent flex flex-col">
           <div id="developer" className="md:ml-6 ml-2 mb-4">
             <div className="md:text-lg border-4 rounded-3xl px-2 inline-flex items-center shadow-lg whitespace-nowrap">
@@ -72,25 +72,26 @@ const MyComponent = () => {
             Download resume
           </button>
         </div>
-        <div className="flex-1 flex items-center justify-center relative mt-10 md:mt-0">
-          <div id="canv" className="absolute inset-0 z-0 w-full h-full">
-            <Canvas className="w-full h-full">
-              <Suspense fallback={null}>
-                <OrbitControls enableZoom={false} />
-                <ambientLight intensity={1} />
-                <directionalLight position={[3, 2, 1]} />
-                <Sphere args={[1, 50, 100]} scale={2.4}>
-                  <MeshDistortMaterial
-                    color="#3d1c56"
-                    attach="material"
-                    distort={0.5}
-                    speed={2}
-                  />
-                </Sphere>
-              </Suspense>
-            </Canvas>
+        <div className="flex-1 flex items-center justify-center relative md:mt-14 md:mt-0">
+          <div id="canv" className="absolute w-full h-full sm:h-80 md:h-150 ">
+          <Canvas className="w-full h-full relative">
+  <Suspense fallback={null}>
+    <OrbitControls enableZoom={false} />
+    <ambientLight intensity={1} />
+    <directionalLight position={[3, 2, 1]} />
+    <Sphere args={[1, 50, 50]} scale={2.4}>
+      <MeshDistortMaterial
+        color="#3d1c56"
+        attach="material"
+        distort={0.5}
+        speed={2}
+      />
+    </Sphere>
+  </Suspense>
+</Canvas>
+
           </div>
-          <div id="img" className="relative z-9 mb-16 md:mb-0 w-72 h-72 md:w-96 md:h-96">
+          <div id="img" className="relative z-10 mb-16 md:mb-0 w-64 h-64 md:w-96 md:h-96">
             <Image
               src="/my_pic.png"
               alt="Profile Image"
