@@ -28,6 +28,13 @@ const projects = [
     imageUrl: 'Screenshot (119).png',
     technologiesUsed: ['React', 'Next.js', 'Tailwind CSS'],
     link: 'https://github.com/AshimLugun08/portfolio'
+  },
+  {
+    _id: '667f78ebde8a0198339e5090',
+    title: 'Chat Dapp',
+    imageUrl: 'Screenshot (142).png',
+    technologiesUsed: ['Solidity', 'Next.js', 'Rexmix'],
+    link: 'https://github.com/AshimLugun08/portfolio'
   }
 ];
 

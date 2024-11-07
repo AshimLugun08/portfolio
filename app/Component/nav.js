@@ -24,7 +24,7 @@ const Navbar = () => {
     <header id="nav">
       <nav  className="flex flex-wrap h-12 border-b-2 shadow-md items-center justify-between  w-full py-4 md:py-0 bg-transparent backdrop-blur-md px-4 text-lg text-gray-700 bg-white">
         <div>
-          <span className='text-emerald-500'>Web </span>Developer
+          <span className='text-emerald-500'>Full Stack </span>Developer
         </div>
 
         {/* Menu Items */}

@@ -42,8 +42,8 @@ const MyComponent = () => {
 
   const handleResumeDownload = () => {
     const link = document.createElement('a');
-    link.href = '/AshimLugunResume-08.pdf'; // Replace with your resume file path
-    link.download = 'AshimLugunResume-08.pdf'; // Replace with your preferred file name
+    link.href = '/AshimLugunResume-800.pdf'; // Replace with your resume file path
+    link.download = 'AshimLugunResume-800.pdf'; // Replace with your preferred file name
     link.click();
   };
 
@@ -54,16 +54,16 @@ const MyComponent = () => {
           <div id="developer" className="md:ml-6 ml-2 mb-4">
             <div className="md:text-lg border-4 rounded-3xl px-2 inline-flex items-center shadow-lg whitespace-nowrap">
               <BsStars className="text-emerald-500 mr-2" />
-              Fullstack Developer Portfolio
+              Fullstack Developer 
             </div>
             <h1 className="text-5xl text-gray-800 font-black mt-8">
               Providing <span className="text-emerald-500">the best </span> project experience.
             </h1>
           </div>
           <p id="dis" className="mt-6 ml-2 md:ml-6 font-medium">
-            I'm a Fullstack Web Developer with experience in Website development.<br />
-            Check out my project and skills.
+          I'm Ashim Lugun, a Computer Science Engineer passionate about full-stack development and blockchain technology. I enjoy building impactful, user-centric applications and exploring innovative solutions in the web3 space.
           </p>
+          <p>  Check out my projects and skills below!</p>
           <button
             id="resum"
             className="hover:bg-emerald-500 hover:text-white shadow-lg text-lg border-4 rounded-3xl md:ml-6 ml-2 mt-6 inline-flex items-center px-4 py-2 w-max"
