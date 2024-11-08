@@ -61,7 +61,7 @@ const MyComponent = () => {
             </h1>
           </div>
           <p id="dis" className="mt-6 ml-2 md:ml-6 font-medium">
-          I'm Ashim Lugun, a Computer Science Engineer passionate about full-stack development and blockchain technology. I enjoy building impactful, user-centric applications and exploring innovative solutions in the web3 space.
+          I'm <b>Ashim Lugun</b>, a Computer Science Engineer passionate about full-stack development and blockchain technology. I enjoy building impactful, user-centric applications and exploring innovative solutions in the web3 space.
       <br></br>   Check out my projects and skills below!
     </p>
          

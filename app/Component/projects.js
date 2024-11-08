@@ -34,7 +34,7 @@ const projects = [
     title: 'Chat Dapp',
     imageUrl: 'Screenshot (142).png',
     technologiesUsed: ['Solidity', 'Next.js', 'Rexmix'],
-    link: 'https://github.com/AshimLugun08/portfolio'
+    link: 'https://github.com/AshimLugun08/chat-Dapp'
   }
 ];
 
